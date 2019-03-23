@@ -1,0 +1,28 @@
+﻿@model UsuarioModel
+
+<h3 class="text-center">Registrar minha conta</h3>
+<form asp-controller="Usuario" asp-action="Registrar">
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" asp-for="Nome">
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" asp-for="Email">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="pwd">Senha:</label>
+        <input type="password" class="form-control" asp-for="Senha">
+        <span asp-validation-for="Senha" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" class="form-control" asp-for="Data_Nascimento">
+        <span asp-validation-for="Data_Nascimento" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-block btn-success">Registrar</button>
+</form>
+
+

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFinance", "MyFinance\MyFinance.csproj", "{670C134B-7AFD-4D69-AC47-539D4B647F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{670C134B-7AFD-4D69-AC47-539D4B647F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670C134B-7AFD-4D69-AC47-539D4B647F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670C134B-7AFD-4D69-AC47-539D4B647F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670C134B-7AFD-4D69-AC47-539D4B647F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFA12770-8F0C-4516-8DA3-6B9A9489DCE8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rankinesystems.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyFinance\\MyFinance.csproj
+		SccProjectName1 = MyFinance
+		SccLocalPath1 = MyFinance
+	EndGlobalSection
+EndGlobal
